@@ -1,0 +1,11 @@
+.chart {
+  align-items: center;
+  background: conic-gradient(
+    var(--color-accent) var(--chart-angle),
+    var(--color-neutral) 0);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: var(--chart-size);
+  width: var(--chart-size);
+}
